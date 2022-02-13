@@ -19,6 +19,8 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
+import com.google.android.gms.auth.api.signin.GoogleSignInClient
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
 import com.google.android.material.navigation.NavigationView
@@ -39,20 +41,7 @@ class MainActivity : AppCompatActivity() , IShowInfoUser , IToast {
     private lateinit var toggle: ActionBarDrawerToggle
     private lateinit var navView: NavigationView
     private val RC_SIGN_IN = 100
-//    var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-//        if (result.resultCode == Activity.RESULT_OK) {
-//            // There are no request codes
-//            val data: Intent? = result.data
-//            val account = GoogleSignIn.getSignedInAccountFromIntent(data).result
-//            account?.let {
-//                firebaseAuthWithGoogle(account)
-//            }
-//            if (account == null){
-//                Show("Fail to login " , this)
-//            }
-//        }
-//    }
-    //private lateinit var googleSignInClient : GoogleSignInClient
+    private lateinit var googleSignInClient : GoogleSignInClient
 
     private var auth: FirebaseAuth
     var mCurrentFragment = Frag_Home
@@ -70,11 +59,13 @@ class MainActivity : AppCompatActivity() , IShowInfoUser , IToast {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-//            .requestIdToken(getString(R.string.default_web_client_id))
-//            .requestEmail()
-//            .build()
-        //googleSignInClient = GoogleSignIn.getClient(this, gso)
+        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(getString(R.string.default_web_client_id))
+            .requestEmail()
+            .build()
+
+        googleSignInClient = GoogleSignIn.getClient(this, gso)
+
 
 
         drawerLayout = findViewById(R.id.drawer_layout)
@@ -227,6 +218,7 @@ class MainActivity : AppCompatActivity() , IShowInfoUser , IToast {
         val user = Firebase.auth.currentUser
         if (user != null) {
             Firebase.auth.signOut()
+            googleSignInClient.signOut()
             ShowInfoUser(navView , this)
         }
     }
