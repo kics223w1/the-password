@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="frag_instruction"
+    android:background="@drawable/gradients_blue_to_purple">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="60dp"
+        android:textSize="26sp"
+        android:background="@drawable/bg_purple_500_all_corners_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Example : I'm Huy and I don't want remember difficulty account and password in facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="My keycode: Huy@1facebook"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_purple_500_all_corners_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:text="Create pass and account"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_purple_500_all_corners_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:text="Store 'facebook.com' in list of web"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_purple_500_all_corners_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:text="Do same with orther website"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_purple_500_all_corners_16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/btn_back_toHome"
+        android:text="Back"
+        android:layout_marginTop="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:background="@drawable/ripple_effect_btn_purple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

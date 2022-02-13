@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradients_blue_to_purple"
+    android:tag="Frag_sign_in">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="52sp"
+        android:text="𝓣𝓱𝓮 𝓹𝓪𝓼𝓼𝔀𝓸𝓻𝓭"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:hint="account"
+        android:textColor="@color/black"
+        app:counterEnabled="true"
+        app:counterMaxLength="40"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_inputSignIn_account"
+            android:textSize="24sp"
+            android:background="@drawable/round_corners_purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:hint="password"
+        android:textColor="@color/black"
+        app:counterEnabled="true"
+        app:counterMaxLength="40"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tv_inputSignIn_password"
+            android:textSize="24sp"
+            android:background="@drawable/round_corners_purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple_effect_btn_purple"
+        android:gravity="center"
+        android:text="@string/sign_in"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btn_create_account"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="@string/create_account"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple_effect_btn_purple"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    <TextView
+        android:id="@+id/btn_sign_in_google"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:text="@string/sign_in_google"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple_effect_btn_purple"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

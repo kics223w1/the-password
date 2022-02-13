@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:mode="same_level"
+    app:dragEdge="right"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="6dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:textColor="@color/black"
+            android:background="@drawable/bg_purple_500_all_corners_16dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/rename"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:textColor="@color/black"
+            android:background="@drawable/bg_purple_500_all_corners_16dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/delete"
+            android:layout_width="85dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginStart="0dp" />
+
+    </LinearLayout>
+
+
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+    <com.chauthai.swipereveallayout.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:mode="same_level"
+        app:dragEdge="right"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rename"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:textColor="@color/black"
+                android:background="@drawable/bg_purple_500_all_corners_16dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/delete"
+                android:layout_width="85dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_purple_500_all_corners_16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_marginStart="0dp" />
+
+        </LinearLayout>
+
+
+
+    </com.chauthai.swipereveallayout.SwipeRevealLayout>
+</LinearLayout>

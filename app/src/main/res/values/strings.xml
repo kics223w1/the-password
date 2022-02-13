@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">The Password</string>
+    <string name="home">Home</string>
+    <string name="clear"/>
+
+
+    <string name="navi_list">List of web</string>
+    <string name="navi_account">Account</string>
+    <string name="navi_myProlife">My Prolife</string>
+    <string name="instruction">Instruction</string>
+    <string name="navi_sign_in">Sign in</string>
+    <string name="navi_sign_out">Sign out</string>
+    <string name="navi_open_drawer">Open navigation drawer</string>
+    <string name="navi_close_drawer">Close navigation drawer</string>
+
+<!--    //<string name="default_web_client_id">825797835498-33i5pi0r8hb6tovru7mieukr01on9oiq.apps.googleusercontent.com</string>-->
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="create_account">Create an account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="check_keyCode1">key code can not be empty</string>
+    <string name="check_keyCode2">key code must be at least 40 character</string>
+    <string name="check_keyCode4">At least have one character in key code</string>
+    <string name="check_keyCode5">Some thing went wrong with this keycode</string>
+    <string name="check_account">account must not contain </string>
+    <string name="check_password">password must have at least 6 character</string>
+    <string name="copy_success">Copy Success</string>
+    <string name="generate_password">Create Password</string>
+    <string name="generate_account">Create Account</string>
+    <string name="generating_password">Creating Password</string>
+    <string name="generating_account">Creating Account</string>
+
+
+
+
+    <string name="store_in_sever">Store web in sever</string>
+    <string name="store_in_phone">Store web in your phone</string>
+    <string name="rename_in_sever">Rename web in sever</string>
+    <string name="rename_in_phone">Rename web in your phone</string>
+    <string name="delete_in_sever">Delete web in your sever</string>
+    <string name="delete_in_phone">Delete web in your phone</string>
+    <string name="type_web">Please type web you have account</string>
+    <string name="rename_web">Please rename web you want</string>
+    <string name="dialog_check_user1">Sign in to store web in server</string>
+    <string name="dialog_check_user2">Or just store in your phone</string>
+    <string name="dialog_check_user3">And data will be remove if app is uninstall</string>
+    <string name="dialog_deleteWeb">Are you sure to delete this web</string>
+
+
+    <string name="add_web">Add Web</string>
+    <string name="not_login">Not Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="delete_success">delete success</string>
+
+    <string name="web_already_have">web is already have</string>
+    <string name="web_empty">web can not be empty</string>
+    <string name="data_go_wrong">some errors happen, but data has been uploaded</string>
+
+</resources>
