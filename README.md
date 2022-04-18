@@ -20,7 +20,7 @@
 ✅ Store , edit , delete data in local</br>
 ✅ Store , edit , delete data in Firebase realtime database</br>
 ✅ Sign up and sign in with Firebase Authencation</br>
-✅ Or sign in by google</br>
+✅ Or use google sign in</br>
 
 # Summary
 This is my second app (CRUD app), that time i have not applied MVVM when creating this.
